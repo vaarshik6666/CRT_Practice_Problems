@@ -1,6 +1,12 @@
 public class ClassLinkedList {
     public static void main(String[] args) {
         LinkedList list = new LinkedList();
+        list.insertEnd(10);
+        list.insertEnd(20);
+        list.insertEnd(30);
+        list.insertBig(5);
+        list.insertPos(15, 2);
+        list.display();
         int[] arr = { 10, 20, 30, 40 };
         Node head = LinkedList.arrayToList(arr);
         Node current = head;
