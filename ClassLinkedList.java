@@ -4,7 +4,7 @@ public class ClassLinkedList {
         list.insertEnd(10);
         list.insertEnd(20);
         list.insertEnd(30);
-        list.insertBig(5);
+        list.insertBig(55);
         list.insertPos(15, 2);
         list.display();
         int[] arr = { 10, 20, 30, 40 };
@@ -196,5 +196,4 @@ class LinkedList {
         }
         return arr;
     }
-
 }
