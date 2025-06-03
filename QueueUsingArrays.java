@@ -17,10 +17,10 @@ class Queue1 {
 
     Queue1(int capacity) {
         this.capacity = capacity;
-        queue = new int[capacity];
-        front = 0;
-        rear = -1;
-        size = 0;
+        this.queue = new int[capacity];
+        this.front = 0;
+        this.rear = -1;
+        this.size = 0;
     }
 
     void enqueue(int data) {
