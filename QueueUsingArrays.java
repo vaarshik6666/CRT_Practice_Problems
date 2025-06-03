@@ -1,6 +1,10 @@
 public class QueueUsingArrays {
     public static void main(String[] args) {
-
+        Queue1 queue = new Queue1(5);
+        queue.enqueue(10);
+        queue.enqueue(20);
+        queue.enqueue(30);
+        queue.display();
     }
 }
 
@@ -21,7 +25,8 @@ class Queue1 {
 
     void enqueue(int data) {
         if (size == capacity) {
-            throw new RuntimeException("Queue is full");
+            System.out.println("Queue is filled");
+            return;
         }
         rear = (rear + 1) % capacity;
         queue[rear] = data;
