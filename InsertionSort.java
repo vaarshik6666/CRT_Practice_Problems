@@ -4,6 +4,7 @@ public class InsertionSort {
         for (int num : InsertionSortAlgo(nums)) {
             System.out.print(num + " ");
         }
+        System.out.println();
     }
 
     public static int[] InsertionSortAlgo(int[] nums) {
